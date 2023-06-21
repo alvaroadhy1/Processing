@@ -86,7 +86,7 @@ void keyTyped(){
   }else if(key == '=' && vol<=1){
     vol += .1;
     volume += 1;
-  }else if(key == '-' && vol>=1){
+  }else if(key == '-' && vol>=0){
     vol -= .1;
     volume -= 1;
   }
